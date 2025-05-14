@@ -32,14 +32,15 @@ public class Hero : MonoBehaviour
 
     private void HandleTestEvent( )
     {
-        Debug.Log("AAAA ");
+        Debug.Log("Hero HandleTestEvent ");
     }    
     private void HandlePlayerEvent(PlayerEvent playerEvent)
     {
+        Debug.Log("Hero ");
         Debug.Log(playerEvent.health);
         Debug.Log(playerEvent.mana);
         playerEvent.myAction();
-       Debug.Log(playerEvent.myFunc(5));
+        Debug.Log(playerEvent.myFunc(5));
     }
     
    

@@ -1,6 +1,6 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:VisualElement name="Head" style="flex-grow: 1; flex-direction: column; flex-wrap: nowrap; -unity-background-image-tint-color: rgba(229, 203, 46, 0.72); background-color: rgba(233, 215, 54, 0.99); flex-shrink: 1;">
-        <ui:Button text="Button" />
+        <ui:Button text="Button" name="topButton" />
         <ui:Label text="Book 1" style="-unity-text-align: upper-center;" />
         <ui:Label text="Chapter one" style="-unity-text-align: upper-center;" />
         <ui:Label text="Unit 1" style="-unity-text-align: upper-center;" />
